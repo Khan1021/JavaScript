@@ -1,0 +1,17 @@
+function palindrome(str) {
+  let polishedStr = str.replace(/\W+|_/g, "").toLowerCase()
+  let reversedStr = polishedStr.split("").reverse().join("")
+  console.log(reversedStr)
+  if (polishedStr !== reversedStr){
+    return false
+  }
+  return true
+}
+
+
+
+
+
+console.log(palindrome("eye"));
+console.log(palindrome("_eye"))
+console.log(palindrome("A man, a plan, a canal. Panama"))
