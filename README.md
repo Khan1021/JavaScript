@@ -1,2 +1,2 @@
 # JavaScript
-JavaScript projects
+JavaScript projects from the FreeCodeCamp Javascript and data algorithms course.
